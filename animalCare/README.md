@@ -41,7 +41,7 @@
 ## 🙋 맡은 기능
 <br>
 
-<img width="959" alt="Screenshot%202024-01-16%20at%2015 27 56" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/2bf548ff-f2c3-4689-9c5d-7070439bebff">
+![Screenshot202024-01-1620at2015 27 56](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/95d1b139-03b4-409b-8f86-326602049252)
 
 ### 메인
 - #### 입양이 필요한 동물들이 설정된 시간에 맞춰 슬라이드로 노출
@@ -49,7 +49,7 @@
 <br>
 <br>
 
-<img width="1095" alt="Screenshot%202024-01-16%20at%2014 43 38" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/7854ef22-77d4-4ca8-9bcf-5abd571b1619">
+![Screenshot202024-01-1620at2014 43 38](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/db8aceae-342d-43c3-97b3-9b35a224e6bc)
 
 ### 상품
 - #### 메인에서 상품 카테고리 최초 클릭 시 회원의 대표동물로 상품 목록 출력
@@ -60,7 +60,7 @@
 <br>
 <br>
 
-<img width="945" alt="Screenshot%202024-01-16%20at%2018 13 51" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/627013d9-df84-4b15-89bb-6c98adc5a5b0">
+![Screenshot202024-01-1620at2018 13 51](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/4b4f255e-3b88-48d1-a17d-bafa1d4996d5)
 
 ### 상품 상세
 - #### 수량 변경 가능
@@ -70,7 +70,7 @@
 <br>
 <br>
 
-<img width="1096" alt="Screenshot%202024-01-16%20at%2014 51 23" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/ede3b87e-444d-4d42-b9af-a16c70616a71">
+![Screenshot202024-01-1620at2014 51 23](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/774e54fc-ddb5-4a39-9dc7-3a76b7bab137)
 
 ### 장바구니 및 위시
 - #### 상품 상세 페이지에서 장바구니 및 위시에 담은 상품 출력
@@ -80,7 +80,7 @@
 <br>
 <br>
 
-![Screenshot%202024-01-16%20at%2014 52 54](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/c605911e-2335-4cef-ae1d-1a5eef7c8f12)
+![Screenshot%202024-01-16%20at%2014 52 54](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/5a49cc5d-e955-4740-afb1-e9224dc3bb8a)
 
 ### 상품 관리
 - #### 모든 상품 출력
