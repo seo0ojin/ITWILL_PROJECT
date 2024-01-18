@@ -46,7 +46,7 @@ __늘어가는 유기동물 감소에 도움이 되고자 입양센터와 연계
 ## 🙋 맡은 기능
 <br>
 
-<img width="959" alt="Screenshot%202024-01-16%20at%2015 27 56" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/2bf548ff-f2c3-4689-9c5d-7070439bebff">
+![Screenshot202024-01-1620at2015 27 56](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/9310b5a5-d78a-45d6-a111-284bd2388f7b)
 
 ### 메인
 - #### 입양이 필요한 동물들이 설정된 시간에 맞춰 슬라이드로 노출
@@ -54,7 +54,7 @@ __늘어가는 유기동물 감소에 도움이 되고자 입양센터와 연계
 <br>
 <br>
 
-<img width="1095" alt="Screenshot%202024-01-16%20at%2014 43 38" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/7854ef22-77d4-4ca8-9bcf-5abd571b1619">
+![Screenshot202024-01-1620at2014 43 38](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/9fb45c82-5580-4c4c-96d4-e0198f996483)
 
 ### 상품
 - #### 메인에서 상품 카테고리 최초 클릭 시 회원의 대표동물로 상품 목록 출력
@@ -65,7 +65,7 @@ __늘어가는 유기동물 감소에 도움이 되고자 입양센터와 연계
 <br>
 <br>
 
-<img width="945" alt="Screenshot%202024-01-16%20at%2018 13 51" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/627013d9-df84-4b15-89bb-6c98adc5a5b0">
+![Screenshot202024-01-1620at2018 13 51](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/b020939a-50b8-42ba-b40a-b1b57d3bee23)
 
 ### 상품 상세
 - #### 수량 변경 가능
@@ -75,7 +75,7 @@ __늘어가는 유기동물 감소에 도움이 되고자 입양센터와 연계
 <br>
 <br>
 
-<img width="1096" alt="Screenshot%202024-01-16%20at%2014 51 23" src="https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/ede3b87e-444d-4d42-b9af-a16c70616a71">
+![Screenshot202024-01-1620at2014 51 23](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/9032a33d-5667-4c1c-9300-6f3f33ac44ec)
 
 ### 장바구니 및 위시
 - #### 상품 상세 페이지에서 장바구니 및 위시에 담은 상품 출력
@@ -85,7 +85,7 @@ __늘어가는 유기동물 감소에 도움이 되고자 입양센터와 연계
 <br>
 <br>
 
-![Screenshot%202024-01-16%20at%2014 52 54](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/c605911e-2335-4cef-ae1d-1a5eef7c8f12)
+![Screenshot%202024-01-16%20at%2014 52 54](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/80f8a4b4-a6b8-4e62-81fd-77a4451f6f50)
 
 ### 상품 관리
 - #### 모든 상품 출력
@@ -146,7 +146,7 @@ __복잡하고 비싼 휴대폰 구매를 대신하여, 저렴하고 직관적�
 ## 🙋 맡은 기능
 <br>
 
-![Screenshot%202024-01-18%20at%2014 54 36](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/4231f535-bf1d-4816-becb-e22e18a504d7)
+![Screenshot%202024-01-18%20at%2014 54 36](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/bdae9843-34bf-4baf-84bb-4a97103f8e4c)
 
 ### 상품 토론 게시판
 - #### 상품 상세 페이지에서 상품 토론방 클릭 시 해당 상품의 토론 게시판으로 이동
