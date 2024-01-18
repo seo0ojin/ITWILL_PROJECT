@@ -44,7 +44,7 @@
 ## 🙋 맡은 기능
 <br>
 
-![Screenshot%202024-01-18%20at%2014 54 36](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/4231f535-bf1d-4816-becb-e22e18a504d7)
+![Screenshot%202024-01-18%20at%2014 54 36](https://github.com/seo0ojin/ITWILL_PROJECT/assets/129732297/cdaceae1-3fd3-4ac2-a731-24a2d3dd3d9c)
 
 ### 상품 토론 게시판
 - #### 상품 상세 페이지에서 상품 토론방 클릭 시 해당 상품의 토론 게시판으로 이동
