@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'war' 
+apply plugin: 'com.bmuschko.tomcat'
+repositories {
+    jcenter()
+}
+dependencies {   
+ 	implementation 'org.mybatis:mybatis:3.5.13'
+	implementation 'com.oracle.database.jdbc:ojdbc8:12.2.0.1'
+	compileOnly 'org.projectlombok:lombok:1.18.24'
+	implementation 'log4j:log4j:1.2.17'
+    /**********junit****************/
+  	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    /**********servlet****************/
+    providedCompile "javax.servlet:javax.servlet-api:4.0.1"   
+    /***********tomcat****************/
+    def tomcatVersion = '9.0.0'
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+           "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
+           "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"   
+}
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.2'
+    }
+}

@@ -1,0 +1,2 @@
+insert into orders( order_no, order_fee, order_date, delivery, delivery_req, delivery_status, delivery_receiver, user_id, payment_no) 
+    values(ORDERS_order_no_SEQ.nextval, 3, sysdate, '서울시 강남구', '던지지 마세요', '배송중', '임도담', null, 30);

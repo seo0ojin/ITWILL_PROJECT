@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="jdbc.properties" />
+	<settings>
+		<!-- 카멜 케이스 VO 매핑 -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+		<!-- 쿼리 결과 필드가 null인 경우, 누락이 되서 나오지 않게 설정 -->
+		<setting name="callSettersOnNulls" value="true" />
+		<!-- 쿼리에 보내는 파라미터가 null인 경우, 오류가 발생하는 것 방지 -->
+		<setting name="jdbcTypeForNull" value="NULL" />
+	</settings>
+	<typeAliases>
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driverClass}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<!-- <mapper resource="com/itwill/shop/board/mapper/BoardMapper.xml" /> -->
+		<mapper class="com.itwill.shop.board.mapper.BoardMapper" />
+		<mapper class="com.itwill.shop.user.UserMapper"/>
+		<mapper class="com.itwill.shop.cart.CartMapper"/>
+		<mapper class="com.itwill.shop.product.ProductMapper"/>
+		<mapper class="com.itwill.shop.plan.PlanMapper"/>
+		<mapper class="com.itwill.shop.order.OrderMapper"/>
+		<mapper class="com.itwill.shop.order.OrderItemMapper"/>
+		<mapper class="com.itwill.shop.order.pay.PaymentMapper"/>
+	</mappers>
+</configuration>
+
+
+
+
+
+
+
+
+

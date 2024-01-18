@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwill.shop.board.mapper.BoardMapper">
+	<!-- resultMap 정의 -->
+	<resultMap type="com.itwill.shop.board.Board"
+		id="BoardResultMap" autoMapping="true">
+		<id column="board_no" property="boardNo" />
+		<association property="product"
+			javaType="com.itwill.shop.product.Product" autoMapping="true">
+			<id column="product_no" property="productNo" />
+		</association>
+		<association property="user"
+			javaType="com.itwill.shop.user.User" autoMapping="true">
+			<id column="user_id" property="userId" />
+		</association>
+	</resultMap>
+	<!-- /******************** insert ******************/ -->
+	<!-- <insert id="insert" parameterType="com.itwill.shop.board.Board">
+		insert into board(board_no, board_title, board_content, board_date, user_id,
+		product_no, board_groupno, board_step)
+		values(board_board_no_seq.nextval, #{boardTitle}, #{boardContent},
+		sysdate, #{user.user_id}, #{product.productNo},
+		board_board_no_seq.currval, #{boardStep})
+	</insert>
+	
+	<update id="updateReply"
+			parameterType="com.itwill.shop.board.Board">
+			update board set board_step = board_step + 1 where board_step > #{boardStep} and board_groupno = #{boardGroupNo}	
+	</update>
+
+	<insert id="insertReply"
+		parameterType="com.itwill.shop.board.Board">
+		insert into board(board_no, board_title, board_content, board_date, user_id, product_no, board_groupno, board_step, board_depth)
+		values(board_board_no_seq.nextval, #{boardTitle}, #{boardContent},sysdate, #{user.userId}, #{product.productNo}, #{boardGroupNo}, #{boardStep}, #{boardDepth})
+	</insert>
+
+	<update id="update" parameterType="com.itwill.shop.board.Board">
+		update board set board_title = #{boardTitle}, board_content = #{boardContent} where board_no = #{boardNo}
+	</update>
+
+	<delete id="delete" parameterType="int">
+		delete board where board_no = #{boardNo}
+	</delete>
+
+	<update id="increaseReadCount" parameterType="int">
+		update board set board_readcount = board_readcount + 1 where board_no = #{boardNo}
+	</update>
+
+	<select id="findBoard" parameterType="int"
+		resultMap="BoardResultMap">
+		select board_no, board_title, board_content, board_date, product_no, user_id
+		from board where board_no = #{boardNo}
+	</select>
+
+	<select id="findBoardList" parameterType="int"
+		resultMap="BoardResultMap">
+		SELECT board_no, board_title, board_content, board_date, product_no,
+		user_id,
+		board_readcount, board_groupno, board_step, board_depth
+		FROM (
+		SELECT ROWNUM idx,
+		sorted_board.*
+		FROM (
+		SELECT board_no,
+		board_title,
+		board_content,
+		board_date,
+		board_readcount,
+		user_id,
+		b.product_no,
+		board_groupno,
+		board_step,
+		board_depth
+		FROM board b
+		JOIN product p ON b.product_no = p.product_no
+		ORDER BY board_groupno DESC, board_step ASC
+		) sorted_board
+		) rownum_board
+		WHERE product_no = #{productNo} AND rownum_board.idx >= #{start} AND
+		rownum_board.idx &lt;= #{last}
+	</select>
+
+	<select id="getBoardCount"
+		parameterType="com.itwill.shop.board.Board">
+		select count(*) from board where product_no = #{product_no}
+	</select> -->
+</mapper>

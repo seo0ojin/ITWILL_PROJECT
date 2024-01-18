@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwill.shop.product.ProductMapper">
+	<resultMap type="com.itwill.shop.product.Product" id="productMapper" autoMapping="true" >
+		<id column="product_no" property="productNo"/>
+			<result column = "product_name" property = "productName"></result>
+			<result column = "product_model" property = "productModel"></result>
+			<result column = "product_price" property = "productPrice"></result>
+			<result column = "product_storage" property = "productStorage"></result>
+			<result column = "product_color" property = "productColor"></result>
+			<result column = "product_image" property = "productImage"></result>
+			<result column = "product_detail" property = "productDetail"></result>
+		<association property="spec" autoMapping="true" javaType="com.itwill.shop.product.Spec">
+		<id column="SPEC_NO" property="specNo"/>
+			<result column = "spec_network" property = "specNetwork"></result>
+			<result column = "spec_brand" property = "specBrand"></result>
+			<result column = "spec_release" property = "specRelease"></result>
+			<result column = "spec_color" property = "specColor"></result>
+			<result column = "spec_display" property = "specDisplay"></result>
+			<result column = "spec_size" property = "specSize"></result>
+			<result column = "spec_weight" property = "specWeight"></result>
+			<result column = "spec_ram" property = "specRam"></result>
+			<result column = "spec_battery" property = "specBattery"></result>
+			<result column = "spec_os" property = "specOs"></result>
+			<result column = "spec_cam" property = "specCam"></result>
+		</association> 
+	</resultMap>
+</mapper>
